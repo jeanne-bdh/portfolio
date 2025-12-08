@@ -1,5 +1,5 @@
 import About from "./components/About";
-import Education from "./components/Education";
+import Experiences from "./components/Experiences";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -13,7 +13,7 @@ export default function App() {
       <Hero />
       <Skills />
       <Projects />
-      <Education />
+      <Experiences />
       <About />
       <Footer />
     </div>

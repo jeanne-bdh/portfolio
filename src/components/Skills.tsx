@@ -7,7 +7,7 @@ import imgPHP from '../assets/skills/php.png'
 import imgMGDB from '../assets/skills/mongodb.png'
 import imgTW from '../assets/skills/tailwind.png'
 
-const techno = [
+const stack = [
     { id: 1, name: "JavaScript", image: imgJS, category: "front" },
     { id: 2, name: "React", image: imgReact, category: "front" },
     { id: 3, name: "MySQL", image: imgSQL, category: "back" },
@@ -23,10 +23,11 @@ const Skills = () => {
             <Title title="Compétences" />
 
             <div className="flex flex-col justify-around items-center lg:flex-row lg:items-start mx-2 mb-16 gap-6">
+
                 <div className="flex flex-col items-center">
                     <h2 className="my-4">FRONT-END</h2>
                     <div className="flex flex-wrap justify-center items-center mt-4 gap-4">
-                        {techno
+                        {stack
                         .filter(skill => skill.category === "front")
                         .map(skill => (
                             <div className="flex flex-col justify-center items-center" key={skill.id}>
@@ -42,7 +43,7 @@ const Skills = () => {
                 <div className="flex flex-col items-center">
                     <h2 className="my-4">BACK-END</h2>
                     <div className="flex flex-wrap justify-center items-center mt-4 gap-4">
-                        {techno
+                        {stack
                         .filter(skill => skill.category === "back")
                         .map(skill => (
                             <div className="flex flex-col justify-center items-center" key={skill.id}>
@@ -54,6 +55,7 @@ const Skills = () => {
                         ))}
                     </div>
                 </div>
+                
             </div>
 
         </section>
