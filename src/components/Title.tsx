@@ -4,7 +4,7 @@ interface TitleProps {
 
 const Title = ({ title }: TitleProps) => {
     return (
-        <h1 className="uppercase font-bold mt-24 mb-5 text-center text-3xl">
+        <h1 className="uppercase font-bold text-brown12 mt-24 mb-5 text-center text-3xl">
             {title}
         </h1>
     )

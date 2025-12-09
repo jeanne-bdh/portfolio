@@ -16,30 +16,30 @@ const Projects = () => {
         <section>
             <Title title="Mes projets" />
 
-            <div className="text-gray-600 body-font">
+            <div className="text-brown12 body-font">
                 <div className="container px-5 py-8 mx-auto">
                     <div className="flex flex-wrap -m-4">
 
                         {projects.map(project => (
                             <div className="p-4 md:w-1/3" key={project.id}>
-                                <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                                <div className="h-full bg-brown3 rounded-lg overflow-hidden">
                                     <img className="h-56 w-full object-cover object-top" src={project.image} alt="blog" />
                                     <div className="p-6">
-                                        <h1 className="title-font text-lg font-medium text-gray-900 mb-3">{project.title}</h1>
+                                        <h1 className="title-font text-lg font-medium text-brown12 mb-3">{project.title}</h1>
                                         <p className="leading-relaxed mb-3">{project.description}</p>
 
                                         <div className="flex flex-wrap gap-2 mb-6">
                                             {project.stacks.map(stack => (
-                                                    <span key={stack.id} className="inline-flex items-center rounded-md bg-gray-200 px-2 py-1 text-xs font-medium text-gray-600 inset-ring inset-ring-gray-500/10">{stack.name}</span>
+                                                    <span key={stack.id} className="inline-flex items-center rounded-md bg-brown11 px-2 py-1 text-xs font-medium text-brown2">{stack.name}</span>
                                             ))}
                                         </div>
 
                                         <div className="flex items-center flex-wrap justify-between">
-                                            <a href={project.gitHub} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 gap-1">
+                                            <a href={project.gitHub} className="text-brown11 hover:underline inline-flex items-center md:mb-2 lg:mb-0 gap-1">
                                                 <Link2Icon />
                                                 GitHub
                                             </a>
-                                            <a href={project.site} className="text-indigo-500 inline-flex items-center md:mb-2 lg:mb-0 gap-1">
+                                            <a href={project.site} className="text-brown11 hover:underline inline-flex items-center md:mb-2 lg:mb-0 gap-1">
                                                 <Link2Icon />
                                                 Visiter le site
                                             </a>

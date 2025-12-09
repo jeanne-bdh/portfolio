@@ -22,7 +22,7 @@ const Skills = () => {
         <section>
             <Title title="Compétences" />
 
-            <div className="flex flex-col justify-around items-center lg:flex-row lg:items-start mx-2 mb-16 gap-6">
+            <div className="flex flex-col justify-around items-center lg:flex-row lg:items-start mx-16 mb-16 gap-6">
 
                 <div className="flex flex-col items-center">
                     <h2 className="my-4">FRONT-END</h2>

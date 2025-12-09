@@ -8,14 +8,14 @@ import Skills from "./components/Skills";
 
 export default function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Skills />
-      <Projects />
-      <Experiences />
-      <About />
-      <Footer />
+    <div className="bg-brown2">
+        <Navbar />
+        <Hero />
+        <Skills />
+        <Projects />
+        <Experiences />
+        <About />
+        <Footer />
     </div>
   )
 }
