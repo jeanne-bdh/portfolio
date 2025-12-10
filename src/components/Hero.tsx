@@ -14,7 +14,7 @@ const Hero = () => {
                         <h1 className="text-4xl font-bold text-brown11 z-10 relative">
                             Développeuse Web
                         </h1>
-                        <div className="absolute right-[-25px] h-2 w-60 bg-brown6"></div>
+                        {/*<div className="absolute right-[-25px] h-2 w-60 bg-brown6"></div>*/}
                     </div>
 
                     <h1 className='title-font text-2xl mt-8 mb-2 font-medium text-brown12'>Jeanne Bouchend'Homme</h1>
