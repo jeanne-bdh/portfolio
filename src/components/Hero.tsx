@@ -1,10 +1,11 @@
 import { GitHubLogoIcon, EnvelopeOpenIcon, PinBottomIcon, LinkedInLogoIcon } from '@radix-ui/react-icons';
 import photo from '../assets/photo-cv.png';
+import cv from '../assets/cv-2025.pdf';
 
 const Hero = () => {
     return (
         <section className="text-brown12 body-font">
-            <div className="container mx-auto flex px-5 pt-24 md:flex-row flex-col items-center">
+            <div className="container mx-auto flex px-5 pt-24 pb-8 md:flex-row flex-col items-center">
                 <div className="lg:max-w-xs lg:w-full md:w-1/2 md:max-w-xs w-2/6 mb-10 md:mb-0">
                     <img className="object-cover object-center rounded-full" alt="profil" src={photo} />
                 </div>
@@ -41,7 +42,7 @@ const Hero = () => {
                             <EnvelopeOpenIcon />
                             Email
                         </a>
-                        <a href='/' className="inline-flex items-center text-brown2 bg-brown11 border-0 gap-2 py-2 px-6 focus:outline-none hover:bg-brown10 rounded text-lg">
+                        <a href={cv} download="CV-Jeanne-Bouchendhome.pdf" target='_blank' className="inline-flex items-center text-brown2 bg-brown11 border-0 gap-2 py-2 px-6 focus:outline-none hover:bg-brown10 rounded text-lg">
                             <PinBottomIcon />
                             CV
                         </a>

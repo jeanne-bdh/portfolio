@@ -22,15 +22,17 @@ const Projects = () => {
 
                         {projects.map(project => (
                             <div className="p-4 md:w-1/3" key={project.id}>
-                                <div className="h-full bg-brown3 rounded-lg overflow-hidden">
-                                    <img className="h-56 w-full object-cover object-top" src={project.image} alt="blog" />
-                                    <div className="p-6">
-                                        <h1 className="title-font text-lg font-medium text-brown12 mb-3">{project.title}</h1>
-                                        <p className="leading-relaxed mb-3">{project.description}</p>
+                                <div className="h-full bg-brown3 rounded-lg overflow-hidden shadow-md border border-brown6/20">
+                                    <div className="p-5">
+                                        <img className="h-56 w-full rounded-lg object-cover object-top shadow-lg border border-brown6/20" src={project.image} alt="blog" />
+                                    </div>
+                                    <div className="p-5">
+                                        <h1 className="title-font text-xl font-semibold text-brown12 mb-3">{project.title}</h1>
+                                        <p className="leading-relaxed text-brown11 mb-4">{project.description}</p>
 
                                         <div className="flex flex-wrap gap-2 mb-6">
                                             {project.stacks.map(stack => (
-                                                    <span key={stack.id} className="inline-flex items-center rounded-md bg-brown11 px-2 py-1 text-xs font-medium text-brown2">{stack.name}</span>
+                                                <span key={stack.id} className="inline-flex items-center rounded-full bg-brown11/80 px-3 py-1 text-xs font-medium text-brown2 shadow-sm">{stack.name}</span>
                                             ))}
                                         </div>
 
