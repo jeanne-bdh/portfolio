@@ -14,7 +14,7 @@ const About = () => {
                                 <Share1Icon className="w-6 h-6" />
                             </div>
                             <div className="flex-grow pl-6">
-                                <h2 className="text-brown12 text-lg title-font font-medium mb-2">Organisation & Gestion de projet</h2>
+                                <h2 className="text-brown11 text-lg title-font font-bold mb-2">Organisation & Gestion de projet</h2>
                                 <p className="leading-relaxed text-base">Expérience dans la conduite de projets, structurer le travail, respecter les délais et coordonner les échanges.</p>
                             </div>
                         </div>
@@ -23,7 +23,7 @@ const About = () => {
                                 <ChatBubbleIcon className="w-6 h-6" />
                             </div>
                             <div className="flex-grow pl-6">
-                                <h2 className="text-brown12 text-lg title-font font-medium mb-2">Communication & Pédagogie</h2>
+                                <h2 className="text-brown11 text-lg title-font font-bold mb-2">Communication & Pédagogie</h2>
                                 <p className="leading-relaxed text-base">Habituée à animer des réunions et à collaborer entre équipes.</p>
                             </div>
                         </div>
@@ -32,7 +32,7 @@ const About = () => {
                                 <MagnifyingGlassIcon className="w-6 h-6" />
                             </div>
                             <div className="flex-grow pl-6">
-                                <h2 className="text-brown12 text-lg title-font font-medium mb-2">Autonomie & Curiosité</h2>
+                                <h2 className="text-brown11 text-lg title-font font-bold mb-2">Autonomie & Curiosité</h2>
                                 <p className="leading-relaxed text-base">Formation de développeur sans encadrement, avec veille technologique, recherches personnelles.</p>
                             </div>
                         </div>

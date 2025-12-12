@@ -10,7 +10,11 @@ export default {
       colors: {
         ...blackA,
         ...brown,
-      }
+      },
+      fontFamily: {
+        content: ["Schibsted Grotesk", "sans-serif"],
+        title: ["Montserrat", "sans-serif"],
+      },
     },
   },
   plugins: [],

@@ -1,4 +1,4 @@
-import About from "./components/About";
+import Softskills from "./components/Softskills";
 import Experiences from "./components/Experiences";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
@@ -14,7 +14,7 @@ export default function App() {
         <Skills />
         <Projects />
         <Experiences />
-        <About />
+        <Softskills />
         <Footer />
     </div>
   )
