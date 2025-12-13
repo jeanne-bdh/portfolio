@@ -33,7 +33,8 @@ const Experiences = () => {
                                 <div className="flex-grow pl-4">
                                     <h3 className="font-medium title-font text-sm text-brown11 mb-1 tracking-wider">2024</h3>
                                     <h2 className="leading-relaxed font-semibold text-brown12">FORMATION STUDI</h2>
-                                    <p className="text-brown12">Graduate Développeur Web Flutter (Bac+2) <br /> Projets d'études : EcoRide, Zoo Arcadia, Osez Nöel, etc.</p>
+                                    <p className="text-brown12">Graduate Développeur Web (Bac+2)</p>
+                                    <p className="text-brown12 pt-2">HTML, CSS, JavaScript, MySQL, MongoDB, PHP, Symfony, Docker, Figma, Diagrammes, Gestion de projets, Sécuriser ses applications, etc.</p>
                                 </div>
                             </div>
                             <div className="flex relative pb-12">
@@ -46,7 +47,8 @@ const Experiences = () => {
                                 <div className="flex-grow pl-4">
                                     <h3 className="font-medium title-font text-sm text-brown11 mb-1 tracking-wider">2012 - 2024</h3>
                                     <h2 className="leading-relaxed font-semibold text-brown12">CONTRÔLEUSE DE GESTION</h2>
-                                    <p className="text-brown12">Différents types d'entreprises, tailles, secteurs, etc.</p>
+                                    <p className="text-brown12">Entreprises aux univers variés — de l’étude de marché au tourisme, en passant par l’informatique et la sécurité.</p>
+                                    <p className="text-brown12 pt-2">Missions de comptabilité, de pilotage budgétaire et d’analyse de performance.</p>
                                 </div>
                             </div>
                             <div className="flex relative pb-12">
