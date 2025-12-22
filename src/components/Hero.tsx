@@ -5,11 +5,11 @@ import cv from '../assets/cv-2025.pdf';
 const Hero = () => {
     return (
         <section className="text-brown12 body-font">
-            <div className="container mx-auto flex px-5 pt-24 pb-8 md:flex-row flex-col items-center">
-                <div className="lg:max-w-xs lg:w-full md:w-1/2 md:max-w-xs w-2/6 mb-10 md:mb-0">
-                    <img className="object-cover object-center rounded-full" alt="profil" src={photo} />
+            <div className="container mx-auto flex px-5 lg:px-16 md:pt-24 py-8 md:flex-row flex-col items-center justify-center md:gap-10">
+                <div className="flex justify-center w-2/6 mb-10 md:mb-0">
+                    <img className="object-cover object-center rounded-full md:w-48 md:h-48 shadow-lg" alt="profil" src={photo} />
                 </div>
-                <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <div className="lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center">
                     
                     <div className="relative w-fit">
                         <h1 className="text-4xl font-bold text-brown11 z-10 relative">
