@@ -1,5 +1,3 @@
-import SwitchDemo from "./Switch";
-
 const Navbar = () => {
     return (
         <header className="body-font bg-brown2 sticky top-0 z-50">
