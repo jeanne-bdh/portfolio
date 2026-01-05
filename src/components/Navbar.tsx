@@ -8,7 +8,7 @@ const Navbar = () => {
                 <img src="/assets/logo-port" alt="" />
                     <span className="ml-3 text-xl text-brown11 font-semibold tracking-widest">JBH</span>
                 </a>
-                <SwitchDemo />
+                {/*<SwitchDemo />*/}
             </nav>
         </header>
     )
